@@ -76,3 +76,44 @@ body{margin:0;padding: 0;
 .attribution{
     background-color: var(--Lightpink);
 }
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 326px;
+        position: absolute;
+        padding: 10px;
+        background-color: var(--White);
+        border-radius: 18px;
+        top: 124px;
+        /* left: 416px; */
+        left: 10px;
+    }
+    .question p{
+        width: 240px;
+    }
+    .q1 img {
+        height: 25px;
+        position: absolute;
+        right: 20px;
+        bottom: 6px;
+        /* line-height: 25px; */
+        /* align-items: center; */
+    }
+    .q3 img {
+        height: 25px;
+        position: absolute;
+        right: 20px;
+        bottom: 4px;
+    }
+    .q2 img {
+        height: 25px;
+        position: absolute;
+        right: 20px;
+        bottom: -4px;
+    }
+    .q4 img {
+        height: 25px;
+        position: absolute;
+        right: 20px;
+        bottom: 17px;
+    }
+  }
